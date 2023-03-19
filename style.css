@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+#elements {
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    width: fit-content;
+    padding: 30px;
+    margin: 10px auto;
+    display: flex;
+    border: 2px solid black;
+}
+.button .add,.button .delete{
+    margin: 0;
+}
+.section1{
+    display: flex;
+}
+input[type="color"]{
+    width: 25px;
+    height: 25px;
+
+}
+input[type="text"]{
+    border: none;
+    outline: none aqua;
+    text-align: center;
+    margin: 10px auto;
+    box-sizing: border-box;
+    width: 15vw;
+    position: relative;
+    left: 10px;
+}
+.element{
+    width: 33.2vw;
+    height: 20vh;
+    border: 1px solid black;
+}
